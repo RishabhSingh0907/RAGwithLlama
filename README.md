@@ -1,4 +1,20 @@
-# RAG with Llama
+# Project Overview 
+This project integrates the Llama-index, a large language model index, with a vector database (Faiss) to develop a Retrieval-Augmented Generator (RAG) agent. The RAG agent is designed to extract information from documents and perform question answering on the provided document.
 
-Llama is a framework that serves as a tool for developers to build RAG applications. It's an easy to use and deploy tool.
-Here, in this repository I have used this framework to create a simple RAG application that can be used for extracting information from pdf documents. The number of documents can be any. But the only condition here is, all the documents that would be used for information retriecal shall be stored in a seperate common directory.
+### Project Structure
+mainjupyternotebook.ipynb: The Jupyter/Colab notebook containing the implementation of the RAG agent.
+Articles/: Directory containing the document dataset used for training and testing.
+
+### Implementation Details
+The RAG agent consists of two main components:
+Retriever: Uses Faiss to index and retrieve relevant documents based on the input query.
+Generator: Leverages the Llama-index to generate a response based on the retrieved documents.
+
+### Usage
+Clone the repository and navigate to the project directory.
+Run the Jupyter/Colab notebook to train and test the RAG agent.
+
+### Future Work
+Improve the retrieval component by using more advanced indexing techniques.
+Experiment with different generation models and techniques.
+Integrate with other NLP tasks, such as text classification and sentiment analysis.
