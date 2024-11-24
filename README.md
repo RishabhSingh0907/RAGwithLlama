@@ -2,7 +2,7 @@
 This project integrates the Llama-index, a large language model index, with a vector database (Faiss) to develop a Retrieval-Augmented Generator (RAG) agent. The RAG agent is designed to extract information from documents and perform question answering on the provided document.
 
 ### Project Structure
-mainjupyternotebook.ipynb: The Jupyter/Colab notebook containing the implementation of the RAG agent.
+mainjupyter.ipynb: The Jupyter/Colab notebook containing the implementation of the RAG agent.
 Articles/: Directory containing the document dataset used for training and testing.
 
 ### Implementation Details
