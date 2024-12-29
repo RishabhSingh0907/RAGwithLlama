@@ -13,8 +13,3 @@ Generator: Leverages the Llama-index to generate a response based on the retriev
 ### Usage
 Clone the repository and navigate to the project directory.
 Run the Jupyter/Colab notebook to train and test the RAG agent.
-
-### Future Work
-Improve the retrieval component by using more advanced indexing techniques.
-Experiment with different generation models and techniques.
-Integrate with other NLP tasks, such as text classification and sentiment analysis.
